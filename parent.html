@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="favicon.png">
+    <title>Parent Window</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+    <!--[if lt IE 9]>
+            <p class="browsehappy">You are using an
+                <strong>outdated</strong>browser. Please
+                <a href="http://browsehappy.com/">upgrade your browser</a>to improve your experience.</p>
+        <![endif]-->
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-xs-2">
+            <li>
+                <a class="cls_navLink" href="http://nytimes.com">NY Times</a>
+            </li>
+            <li>
+                <a class="cls_navLink" href="http://t-mobile.com">T-Mobile</a>
+            </li>
+            <li>
+                <a class="cls_navLink" href="http://jsfiddle.net/C52vx/6/show/light/">Communication Frame</a>
+            </li>
+        </div>
+        <div class="col-xs-10">
+            <iframe width="100%" height="800" style="background-color: #fff;" src="http://jsfiddle.net/C52vx/6/show/light/" id="myFrame" allowfullscreen="allowfullscreen" frameborder="10"></iframe>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+    <script src="parent.js"></script>
+</body>
+
+</html>
